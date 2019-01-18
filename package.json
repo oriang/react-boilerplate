@@ -4,6 +4,7 @@
   "description": "react with scss boilerplate",
   "main": "index.js",
   "scripts": {
+    "build": "webpack --config webpack-prod.config.js",
     "dev": "webpack-dev-server --mode development --hot "
   },
   "author": "orian gonzalves",
